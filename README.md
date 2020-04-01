@@ -1,29 +1,29 @@
-# js-storage
+# js-storage-service
 
 a wrapper for localstorage、sessionstorage and cookie, provides simply and indentical api
 
 ## Installation
 
-If you use npm for client package management, you can install js-storage with:
+If you use npm for client package management, you can install js-storage-service with:
 
-`npm install js-storage --save`
+`npm install js-storage-service --save`
 
 or with yarn:
 
-`yarn add js-storage`
+`yarn add js-storage-service`
 
-And import js-storage into your code with something like:
+And import js-storage-service into your code with something like:
 
-`import JStorage from 'js-storage';`
+`import JStorage from 'js-storage-service';`
 
 #### TypeScript
 
-js-storage provides a `types` file for usage with TypeScript; importing is simply the same as above.
+js-storage-service provides a `types` file for usage with TypeScript; importing is simply the same as above.
 
 ## Usage
 
 ```js
-import { cookieStorageService, sessionStorageService, localStorageService } from 'js-storage';
+import { cookieStorageService, sessionStorageService, localStorageService } from 'js-storage-service';
 
 cookieStorageService.set('name', { foo: 'bar' });
 cookieStorageService.get('name'); // { foo: 'bar' }
@@ -40,7 +40,7 @@ localStorageService.remove('name');
 localStorageService.clear();
 ```
 
-js-storage `set(key: String, value: any)` could presist any data to storage, with `JSON.stringify`.
+js-storage-service `set(key: String, value: any)` could presist any data to storage, with `JSON.stringify`.
 
 and, `get(key: String)` also will get correct data with `JSON.parse`.
 

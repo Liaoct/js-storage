@@ -1,5 +1,5 @@
 {
-    "name": "js-storage",
+    "name": "js-storage-service",
     "version": "1.0.0",
     "description": "a wrapper for localstorage、sessionstorage and cookie, provides simply and indentical api",
     "main": "lib/index.js",
