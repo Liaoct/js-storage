@@ -64,4 +64,4 @@ More detail info see [`js-cookie`](git://github.com/js-cookie/js-cookie.git).
 
 ## License
 
-MIT
+MIT Liaoct
